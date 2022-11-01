@@ -25,23 +25,33 @@ class SplashScreen extends StatefulWidget {
 
 class _SplashScreenState extends State<SplashScreen> {
   init() async {
-    // await _localStorageService.init();
-    await _authService.init();
-    if (_authService.isLogin) {
-      if (_authService.appUser.id != null) {
-        Get.offAll(() => const OnboardingScreen());
-      } else {
-        Get.offAll(() => LoginScreen());
-      }
-    } else {
-      // SignUpScreen
-      Get.offAll(() => const SignUpScreen());
-    }
+    // // await _localStorageService.init();
+    // await _authService.init();
+    // if (_authService.isLogin) {
+    //   if (_authService.appUser.id != null) {
+    //     Get.offAll(() => const OnboardingScreen());
+    //   } else {
+    //     Get.offAll(() => LoginScreen());
+    //   }
+    // } else {
+    //   // SignUpScreen
+    //   Get.offAll(() => const SignUpScreen());
+    // }
+    //
+    // await Future.delayed(const Duration(seconds: 2));
+    // // Get.offAll(() => const OnboardingScreen());
+    // Get.offAll(() => const SignUpScreen());
+    Future.delayed(Duration(seconds: 3,),
+        ()
 
-    await Future.delayed(const Duration(seconds: 2));
-    // Get.offAll(() => const OnboardingScreen());
-    Get.offAll(() => const SignUpScreen());
+        {
+          print('this is new screen');
+          Get.offAll(() => LoginScreen());
+        }
+    );
+
   }
+
 
   @override
   void initState() {
