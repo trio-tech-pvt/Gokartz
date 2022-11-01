@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "980027125768",
+    "project_id": "messaging-and-payment",
+    "storage_bucket": "messaging-and-payment.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:980027125768:android:2e1d3d0626e449f566a1bd",
+        "android_client_info": {
+          "package_name": "com.example.calkitna_mobile_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "980027125768-eni063qkeg5ba4q21jl5lp5r9v78a8pv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA8DDexuvzB1_dEYgYClDIoiXnNromDgII"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "980027125768-eni063qkeg5ba4q21jl5lp5r9v78a8pv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
