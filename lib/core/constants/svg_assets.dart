@@ -4,7 +4,7 @@ import 'package:flutter_svg/svg.dart';
 
 class SvgAssets {
   static Widget splashScreen =
-      SvgPicture.asset('$staticAsset/splash.svg', fit: BoxFit.cover);
+      SvgPicture.asset('assets/static_assets/logo_gokatz.svg', fit: BoxFit.cover,color: Colors.black,);
   static Widget logo = SvgPicture.asset(
     '$staticAsset/logo.svg',
     fit: BoxFit.contain,

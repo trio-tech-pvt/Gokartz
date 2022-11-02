@@ -3,6 +3,26 @@ import 'package:calkitna_mobile_app/core/constants/style.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 class CustomTextField extends StatelessWidget {
   final TextEditingController? controller;
   final bool? obscure;
@@ -80,6 +100,8 @@ class CustomTextField extends StatelessWidget {
           validator: validator,
           keyboardType: inputType,
           decoration: InputDecoration(
+              border: InputBorder.none,
+              errorBorder: InputBorder.none,
               prefixIcon: Padding(
                 padding: const EdgeInsets.only(left: 14.0, right: 18.0),
                 child: prefixIcon,
@@ -87,8 +109,7 @@ class CustomTextField extends StatelessWidget {
               prefixIconConstraints: BoxConstraints(
                   maxHeight: prefixIcon != null ? 40 : 14,
                   maxWidth: prefixIcon != null ? 50 : 15),
-              border: InputBorder.none,
-              errorBorder: InputBorder.none,
+
               isDense: true,
               errorStyle: bodyTextStyleRoboto.copyWith(fontSize: 12),
               // alignLabelWithHint: true,

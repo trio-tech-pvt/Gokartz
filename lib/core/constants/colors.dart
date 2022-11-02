@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 ///this is app colors
 const Color lightGrayColor = Color(0xFFE8E8E8);
+const Color whiteColor = Color(0xFFffffff);
 const Color lightGreenColor = Color(0xFF01D101);
 const Color deepGreenColor = Color(0xFF4CAF50);
 const Color blackColor = Color(0xFF000000);
